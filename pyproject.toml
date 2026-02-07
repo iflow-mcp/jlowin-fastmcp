@@ -1,5 +1,5 @@
 [project]
-name = "fastmcp"
+name = "iflow-mcp_jlowin-fastmcp"
 dynamic = ["version"]
 description = "The fast, Pythonic way to build MCP servers and clients."
 authors = [{ name = "Jeremiah Lowin" }]
@@ -96,6 +96,9 @@ Documentation = "https://gofastmcp.com"
 [build-system]
 requires = ["hatchling", "uv-dynamic-versioning>=0.7.0"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fastmcp"]
 
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
