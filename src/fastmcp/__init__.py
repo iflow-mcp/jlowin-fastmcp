@@ -19,7 +19,10 @@ import fastmcp.server
 from fastmcp.client import Client
 from . import client
 
-__version__ = _version("fastmcp")
+try:
+    __version__ = _version("iflow-mcp_jlowin-fastmcp")
+except Exception:
+    __version__ = "3.0.0"
 
 
 # ensure deprecation warnings are displayed by default
