@@ -1,6 +1,6 @@
 [project]
 name = "iflow-mcp_jlowin-fastmcp"
-version = "3.0.0"
+version = "3.0.1"
 description = "The fast, Pythonic way to build MCP servers and clients."
 authors = [{ name = "Jeremiah Lowin" }]
 dependencies = [
